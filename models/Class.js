@@ -4,7 +4,8 @@ const ClassSchema = new mongoose.Schema({
     classID: { type: String, required: true, unique: true },
     className: { type: String, required: true},
     students: [{ type: mongoose.Schema.Types.ObjectId, ref: "Student" }] ,
-    teacher: { type: mongoose.Schema.Types.ObjectId, ref: "Teacher" }
+    teacher: { type: mongoose.Schema.Types.ObjectId, ref: "Teacher" },
+    position: { type: String, required: true}
 });
 
 module.exports = mongoose.model("Class", ClassSchema);
