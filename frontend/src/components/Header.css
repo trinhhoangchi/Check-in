@@ -1,0 +1,35 @@
+header {
+    background-color: #2F4156;
+    color: #F5EFEB;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  header div {
+    display: flex;
+    align-items: center;
+  }
+  
+  header span {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  header svg {
+    font-size: 24px;
+    color: #F5EFEB;
+    cursor: pointer;
+  }
+  
+  header div:hover svg {
+    color: #C8D9E6;
+  }
+  

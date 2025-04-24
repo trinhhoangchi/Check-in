@@ -1,0 +1,40 @@
+.page {
+    flex: 1;
+    padding: 5%;
+    background-color: #FFFFFF;
+    overflow-y: auto;
+}
+
+table, th, td {
+    background-color: #C8D9E6;
+    border: 1px solid #567C8D;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 5% 0;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #C8D9E6;
+}
+
+button {
+    height: fit-content;
+    background-color: #C8D9E6;
+    color: #FFFFFF;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #567C8D;
+}
